@@ -38,16 +38,3 @@ CREATE TABLE title_producers (
     FOREIGN KEY (title_id) REFERENCES titles (id), 
     FOREIGN KEY (producer_id) REFERENCES producers (id)
     );
-
-
-
-
-
-
-
-
-SELECT * FROM titles;
-SELECT * FROM actors;
-SELECT * FROM ratings; 
-SELECT * FROM producers;
-SELECT * FROM title_producers;
